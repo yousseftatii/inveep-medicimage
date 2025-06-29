@@ -1,0 +1,36 @@
+# ML-specific ignores
+
+# Large data files
+DermaScan/Data/archive*.zip
+DermaScan/Data/files/
+
+# Keep labels.csv
+!DermaScan/Data/labels.csv
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Model files (optional, depending on whether you want to track them)
+# *.h5
+# *.pkl
+# *.joblib
+# *.pt
+# *.pth
+
+# Temporary files
+*.tmp
+
+# Output directories
+outputs/
+results/
+figures/ 
